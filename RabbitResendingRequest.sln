@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitResendingRequest.Common", "RabbitResendingRequest.Common\RabbitResendingRequest.Common.csproj", "{DAA252C8-EC12-420C-873F-5FA579A54905}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitResendingRequest.Consumer", "RabbitResendingRequest.Consumer\RabbitResendingRequest.Consumer.csproj", "{9C6B384A-F40E-482F-ADBF-0DB049D4F7FA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitResendingRequest.Producer", "RabbitResendingRequest.Producer\RabbitResendingRequest.Producer.csproj", "{E84027A2-BAF8-4DDF-BF2D-ADAAB804E106}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DAA252C8-EC12-420C-873F-5FA579A54905}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DAA252C8-EC12-420C-873F-5FA579A54905}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DAA252C8-EC12-420C-873F-5FA579A54905}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DAA252C8-EC12-420C-873F-5FA579A54905}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C6B384A-F40E-482F-ADBF-0DB049D4F7FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C6B384A-F40E-482F-ADBF-0DB049D4F7FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C6B384A-F40E-482F-ADBF-0DB049D4F7FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C6B384A-F40E-482F-ADBF-0DB049D4F7FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E84027A2-BAF8-4DDF-BF2D-ADAAB804E106}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E84027A2-BAF8-4DDF-BF2D-ADAAB804E106}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E84027A2-BAF8-4DDF-BF2D-ADAAB804E106}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E84027A2-BAF8-4DDF-BF2D-ADAAB804E106}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
