@@ -24,7 +24,7 @@ namespace RabbitResendingRequest.Common
             var props = channel.CreateBasicProperties();
             var body = Encoding.UTF8.GetBytes(JsonConvert.SerializeObject(message));
             channel.BasicPublish(exchange: exchangeName, route, basicProperties: props, body: body);
-            Console.WriteLine(" [x] Sent {0}", msgData);
+            Console.WriteLine($"[Статус Producer] Сообщение отправлено: {msgData}");
         }
         
         private Message GetMessage(string uri) => new Message { Uri = uri};

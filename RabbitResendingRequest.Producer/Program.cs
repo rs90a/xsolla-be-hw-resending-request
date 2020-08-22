@@ -7,6 +7,7 @@ namespace RabbitResendingRequest.Producer
     class Program
     {
         private const string msgData = "https://google.com/";
+        //private const string msgData = "https://google.com/qwerty12345678";
 
         static void Main()
         {
